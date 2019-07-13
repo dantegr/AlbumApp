@@ -5,7 +5,7 @@
 
  const App = () => {
    return (
-    <View>
+    <View style={{ flex: 1 }}>
       <Header headerText={'Albums'} />
       <AlbumList />
     </View>
